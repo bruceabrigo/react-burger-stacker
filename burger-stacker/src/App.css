@@ -1,0 +1,46 @@
+body {
+  margin: auto;
+  background-color: #2d2d2d;
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+ul {
+  list-style-type: none;
+  align-self: center;
+}
+li {
+  cursor: pointer;
+}
+.panes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1em .3em;
+  padding: 0 2em;
+  background-color: white;
+  width: 40%;
+}
+button {
+  margin: 15px;
+  height: 40px;
+  width: 20%;
+  align-self: center;
+  background-color: #cc0000;
+  color: white;
+  border: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e60000;
+}
