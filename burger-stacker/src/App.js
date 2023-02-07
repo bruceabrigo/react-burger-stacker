@@ -22,9 +22,11 @@ import './App.css';
 // }
 
 const App = () => {
-  return <div className='layout'>
+  return (
+    <div className='layout'>
     <Stacker />
     </div>
+  )
 }
 
 export default App;

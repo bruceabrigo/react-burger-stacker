@@ -7,11 +7,14 @@ h1 {
   color: white;
 }
 ul {
+  display: inline-block;
   list-style-type: none;
   align-self: center;
 }
 li {
+  float: left;
   cursor: pointer;
+  list-style: none;
 }
 .panes {
   display: flex;
