@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Ingredient = (props) => {
-  console.log('ingredient.js', props.ingredient.name)
+  // console.log('ingredient.js', props.ingredient.name)
     return (
       <p 
       style={{backgroundColor: props.ingredient.color}}
