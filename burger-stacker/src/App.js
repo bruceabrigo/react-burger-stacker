@@ -5,20 +5,26 @@ import BurgerPane from './components/BurgerPane';
 import Stacker from './components/Stacker';
 import './App.css';
 
-class App extends Component {
-  // create a prop state
-  handleClick = (e) => {
-    e.preventDefault()
-    console.log('Clicked')
-  }
+// class App extends Component {
+//   // create a prop state
+//   handleClick = (e) => {
+//     e.preventDefault()
+//     console.log('Clicked')
+//   }
 
-  render() {
-    return (
-      <div className="layout">
-        <Stacker />
-      </div>
-    );
-  }
+//   render() {
+//     return (
+//       <div className="layout">
+//         <Stacker />
+//       </div>
+//     );
+//   }
+// }
+
+const App = () => {
+  return <div className='layout'>
+    <Stacker />
+    </div>
 }
 
 export default App;
